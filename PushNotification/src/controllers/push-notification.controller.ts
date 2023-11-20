@@ -36,7 +36,7 @@ export class PushNotificationController {
       const messaging = this.firebaseAdmin.messaging();
       
       // Assuming 'token' is the device token you want to send the notification to
-      const targetToken = 'fF-vLd7BgGSBYir7165GlJ:APA91bGXSsBt5OVmI9GBtw6O2-bsXjzypYrBdmhQifYlWDfclYKeKVWuldulKkwn93o9rUKmo7N2iPWH6F09wfCCnn4CJhjW9N3De8QTsfLdxwpkkQUhPXZZfQSzme2QNzWgUxUPwCO5';
+      const targetToken = '';
   
       const payload: admin.messaging.Message = {
         notification: {
